@@ -27,7 +27,10 @@ You can either download the script directly or clone the repository.
 Alternatively, if you have Git installed, you can clone the repository:
 
 git clone https://github.com/Jon-MarkHampson/Ableton-Add-Debug-Entitlement-Script.git
-Step 2: Make the Script Executable
+
+===========================================================
+
+### Step 2: Make the Script Executable
 Open Terminal:
 
 Go to Applications > Utilities > Terminal.
@@ -42,7 +45,11 @@ Make the Script Executable:
 
 Run the following command to make the script executable:
 chmod +x ableton_add_debug_entitlement.sh
-Step 3: Run the Script
+
+===========================================================
+
+
+### Step 3: Run the Script
 Run the Script with Administrative Privileges:
 
 You need to provide the path to the application you want to re-codesign. For example, to re-codesign Ableton Live 12, run:
@@ -59,12 +66,14 @@ Extract the current entitlements and modify them to allow debugging.
 Re-sign the application with the modified entitlements.
 Successful Execution:
 
-If everything works correctly, you should see a message indicating that re-signing and entitlements were applied successfully.
-Example Usage
-To re-sign Ableton Live 12 for debugging:
+===========================================================
 
-sudo ./add_debug_entitlement.sh "/Applications/Ableton Live 12 Suite.app"
-Troubleshooting
+If everything works correctly, you should see a message indicating that re-signing and entitlements were applied successfully.
+
+===========================================================
+
+Troubleshooting:
+
 Operation Not Permitted: If you see this error, make sure the Terminal (or whatever application you're using to run the script) has Full Disk Access enabled. You can do this in System Preferences > Privacy & Security > Full Disk Access.
 
 Application Marked as Damaged: If the application doesn't open after re-signing, you may need to re-download the application and try the process again, ensuring all steps are followed correctly.
