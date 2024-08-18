@@ -4,7 +4,7 @@ This script allows you to modify entitlements for hardened macOS applications to
 
 ## Credits
 
-This script is based on an original script by [talaviram](https://gist.github.com/talaviram/1f21e141a137744c89e81b58f73e23c3). All modifications made by Jon-Mark Hampson.
+This script is based on an original script by [talaviram](https://gist.github.com/talaviram/1f21e141a137744c89e81b58f73e23c3). Some modifications made by Jon-Mark Hampson.
 
 ## Modifications
 - Removal of extended attributes to prevent codesign errors on macOS Sonoma.
